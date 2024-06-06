@@ -58,7 +58,7 @@ a{
     color: #f9faf8;
 }
 
-.con1-button{
+.con1-button, .con4-button{
     color:white;
     background-color: #3882f6;
     display: flex;
@@ -125,4 +125,40 @@ a{
 .con3-source, .con3-text{
     margin-left:8rem;
     margin-right:8rem;
+}
+
+/*-----------------------------*/
+
+.container4{
+    display:flex;
+    justify-content:center;
+}
+
+.bluebox{
+    display: flex;
+    color:white;
+    background-color:#3882f6;
+    align-items:center;
+    justify-content: space-around;
+    width: 800px;
+    border-radius: 6px;
+    margin: 4rem;
+    padding: 2rem 2rem;    
+    gap: 0rem;
+}
+
+.con4-button{
+    border-color: white;
+}
+
+/*---------------------------*/
+
+.footer{
+    display:flex;
+    background-color:#1F2937;
+    color: white;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+    padding: 2rem;
 }
